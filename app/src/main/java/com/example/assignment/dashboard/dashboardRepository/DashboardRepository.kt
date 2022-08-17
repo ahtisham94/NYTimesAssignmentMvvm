@@ -16,8 +16,8 @@ class DashboardRepository @Inject constructor(
     /**
      * This method get articles list from API
      */
-    suspend fun getArticles(howBackFar: Int, apiKey: String) = baseApiResultHandler() {
-        apiService.getArticlesRequest(howBackFar, apiKey)
+    suspend fun getArticles(howBackFar: Int) = baseApiResultHandler() {
+        apiService.getArticlesRequest(howBackFar)
     }
 
 

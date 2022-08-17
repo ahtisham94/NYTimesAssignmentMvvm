@@ -5,6 +5,7 @@ import androidx.room.Room
 import com.example.assignment.R
 import com.example.assignment.repositories.local.MyRoomDatabase
 import com.example.assignment.repositories.remote.GetDataService
+import com.example.assignment.repositories.remote.RequestInterceptor
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -23,13 +24,17 @@ import javax.inject.Singleton
 object AppModules {
     @Singleton
     @Provides
-    fun getRetrofit(@BaseUrlQualifier baseUrl: String): Retrofit {
+    fun getRetrofit(
+        @BaseUrlQualifier baseUrl: String,
+        requestInterceptor: RequestInterceptor
+    ): Retrofit {
 
         val interceptor = HttpLoggingInterceptor()
         interceptor.level = HttpLoggingInterceptor.Level.BODY
         val okHttpClientBuilder = OkHttpClient.Builder()
         okHttpClientBuilder.connectTimeout(30, TimeUnit.SECONDS)
         okHttpClientBuilder.readTimeout(30, TimeUnit.SECONDS)
+        okHttpClientBuilder.addInterceptor(requestInterceptor)
         okHttpClientBuilder.addInterceptor(interceptor)
         return Retrofit.Builder()
             .baseUrl(baseUrl)
@@ -62,4 +67,8 @@ object AppModules {
     @Singleton
     @Provides
     fun getDao(myArticleDb: MyRoomDatabase) = myArticleDb.getMyDao()
+
+    @Singleton
+    @Provides
+    fun getRequestInterceptor(@APIKeyQualifier apiKey: String) = RequestInterceptor(apiKey)
 }

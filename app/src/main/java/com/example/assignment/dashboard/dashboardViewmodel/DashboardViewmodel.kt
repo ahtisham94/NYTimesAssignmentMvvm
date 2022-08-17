@@ -23,10 +23,6 @@ class DashboardViewmodel @Inject constructor() : BaseViewmodel() {
     @Inject
     lateinit var dashboardRepository: DashboardRepository
 
-    @Inject
-    @APIKeyQualifier
-    lateinit var apiKey: String
-
     val articleObserver = ArticleListObserver()
     val articleDetailsObserver = MyArticleDetailObserver()
 
@@ -43,7 +39,7 @@ class DashboardViewmodel @Inject constructor() : BaseViewmodel() {
     fun getArticles() {
         viewModelScope.launch(exceptionHandler) {
 
-            dashboardRepository.getArticles(7, apiKey)
+            dashboardRepository.getArticles(7)
                 .collect {
                     when (it) {
                         is APIState.NetworkResponseSuccess -> {
