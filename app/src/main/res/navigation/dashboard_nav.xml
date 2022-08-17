@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dashboard_nav"
+    app:startDestination="@+id/myArticleListFragment">
+
+    <fragment
+        android:id="@+id/myArticleListFragment"
+        android:name="com.example.assignment.dashboard.fragments.MyArticlesListFragment">
+
+        <action
+            android:id="@+id/toArticleDetailsFragAction"
+            app:destination="@+id/articleDetailsFragment"
+            app:enterAnim="@anim/left_to_right"
+            app:popEnterAnim="@anim/right_to_left" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/articleDetailsFragment"
+        android:name="com.example.assignment.dashboard.fragments.ArticleDetailFragment"
+        tools:layout="@layout/fragment_article_detail">
+
+        <argument
+            android:name="articles"
+            android:defaultValue="@null"
+            app:argType="com.example.assignment.dashboard.artileModels.Article"
+            app:nullable="true" />
+    </fragment>
+
+
+</navigation>
