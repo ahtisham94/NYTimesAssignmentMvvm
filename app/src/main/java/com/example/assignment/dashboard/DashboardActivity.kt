@@ -2,6 +2,7 @@ package com.example.assignment.dashboard
 
 import android.os.Bundle
 import android.view.Menu
+import android.view.MenuItem
 import android.widget.SearchView
 import androidx.activity.viewModels
 import com.example.assignment.R
@@ -15,6 +16,8 @@ class DashboardActivity : BaseActivity<ActivityMainBinding, DashboardViewmodel>(
 
     val dashboardViewmodel: DashboardViewmodel by viewModels()
 
+    var search: MenuItem? = null
+
     override fun getViewModels() = dashboardViewmodel
 
     override fun getLayoutId() = R.layout.activity_main
@@ -27,7 +30,7 @@ class DashboardActivity : BaseActivity<ActivityMainBinding, DashboardViewmodel>(
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.toolbar_menu, menu)
-        val search = menu?.findItem(R.id.appSearchBar)
+        search = menu?.findItem(R.id.appSearchBar)
         val searchView = search?.actionView as SearchView
         searchView.queryHint = "Search"
         searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
@@ -42,6 +45,10 @@ class DashboardActivity : BaseActivity<ActivityMainBinding, DashboardViewmodel>(
         })
 
         return super.onCreateOptionsMenu(menu)
+    }
+
+    fun showSearchMenuItem(show: Boolean) {
+        search?.isVisible = show
     }
 
 }

@@ -6,6 +6,7 @@ import androidx.fragment.app.activityViewModels
 import com.example.assignment.BR
 import com.example.assignment.R
 import com.example.assignment.coreBase.BaseFragment
+import com.example.assignment.dashboard.DashboardActivity
 import com.example.assignment.dashboard.adapters.ArticlesAdapter
 import com.example.assignment.dashboard.artileModels.Article
 import com.example.assignment.dashboard.dashboardViewmodel.DashboardViewmodel
@@ -33,7 +34,9 @@ class MyArticlesListFragment : BaseFragment<FragmentMyArticlesListBinding, Dashb
     }
 
     private fun initView() {
+        (mBaseActivity as DashboardActivity).showSearchMenuItem(true)
         binding.articleRv.adapter = ArticlesAdapter() {
+            closeKeyboard()
             safeNavigateFromNavController(
                 MyArticlesListFragmentDirections.toArticleDetailsFragAction(
                     it as Article

@@ -1,9 +1,11 @@
 package com.example.assignment.coreBase
 
+import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.inputmethod.InputMethodManager
 import androidx.annotation.LayoutRes
 import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
@@ -75,5 +77,18 @@ abstract class BaseFragment<Binding : ViewDataBinding, V : ViewModel> : Fragment
             onDismiss(it)
         }
         successErrorDialog.show()
+    }
+
+
+    /**
+     * This function is used to close keyboard
+     */
+    fun closeKeyboard() {
+        val inputManager =
+            requireActivity().applicationContext.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+        if (requireActivity().currentFocus != null) inputManager.hideSoftInputFromWindow(
+            requireActivity().currentFocus!!.windowToken,
+            InputMethodManager.RESULT_UNCHANGED_SHOWN
+        )
     }
 }

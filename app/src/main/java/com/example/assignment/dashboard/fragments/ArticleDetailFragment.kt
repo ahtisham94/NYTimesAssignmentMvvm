@@ -7,6 +7,7 @@ import androidx.navigation.fragment.navArgs
 import com.example.assignment.BR
 import com.example.assignment.R
 import com.example.assignment.coreBase.BaseFragment
+import com.example.assignment.dashboard.DashboardActivity
 import com.example.assignment.dashboard.dashboardViewmodel.DashboardViewmodel
 import com.example.assignment.databinding.FragmentArticleDetailBinding
 
@@ -27,6 +28,7 @@ class ArticleDetailFragment : BaseFragment<FragmentArticleDetailBinding, Dashboa
     }
 
     private fun initView() {
+        (mBaseActivity as DashboardActivity).showSearchMenuItem(false)
         viewmodel.articleDetailsObserver.articleTile = args.articles?.title
         viewmodel.articleDetailsObserver.articleAbstract = args.articles?.abstractArticle
         viewmodel.articleDetailsObserver.articlePublishedDate =
