@@ -18,10 +18,7 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
-class DashboardViewmodel @Inject constructor() : BaseViewmodel() {
-
-    @Inject
-    lateinit var dashboardRepository: DashboardRepository
+class DashboardViewmodel @Inject constructor(val dashboardRepository: DashboardRepository ) : BaseViewmodel() {
 
     val articleObserver = ArticleListObserver()
     val articleDetailsObserver = MyArticleDetailObserver()

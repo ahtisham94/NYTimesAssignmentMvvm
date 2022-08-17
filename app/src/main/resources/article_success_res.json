@@ -1,0 +1,1260 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2022 The New York Times Company.  All Rights Reserved.",
+  "num_results": 20,
+  "results": [
+    {
+      "uri": "nyt://article/3f3def38-2a79-5904-9f09-faf393b6fa41",
+      "url": "https://www.nytimes.com/2022/08/13/us/politics/trump-classified-material-fbi.html",
+      "id": 100000008487505,
+      "asset_id": 100000008487505,
+      "source": "New York Times",
+      "published_date": "2022-08-13",
+      "updated": "2022-08-14 16:34:47",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Classified Information and State Secrets;United States Politics and Government;Trump, Donald J;Federal Bureau of Investigation;Justice Department;Mar-a-Lago (Palm Beach, Fla);National Archives and Records Administration",
+      "column": null,
+      "byline": "By Maggie Haberman and Glenn Thrush",
+      "type": "Article",
+      "title": "Trump Lawyer Told Justice Dept. That Classified Material Had Been Returned",
+      "abstract": "The lawyer signed a statement in June that all documents marked as classified and held in boxes in storage at Mar-a-Lago had been given back. The search at the former president’s home on Monday turned up more.",
+      "des_facet": [
+        "Classified Information and State Secrets",
+        "United States Politics and Government"
+      ],
+      "org_facet": [
+        "Federal Bureau of Investigation",
+        "Justice Department",
+        "Mar-a-Lago (Palm Beach, Fla)",
+        "National Archives and Records Administration"
+      ],
+      "per_facet": [
+        "Trump, Donald J"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "An inventory of the material taken from Mar-a-Lago on Monday showed that F.B.I. agents seized 11 sets of documents with some type of confidential or secret marking on them.",
+          "copyright": "Marco Bello/Reuters",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/08/13/multimedia/13dc-investigate-02/13dc-investigate-02-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/13/multimedia/13dc-investigate-02/13dc-investigate-02-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/13/multimedia/13dc-investigate-02/13dc-investigate-02-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/edfb1619-5160-5907-a59d-d1e320fe720d",
+      "url": "https://www.nytimes.com/2022/08/11/us/politics/trump-fbi-subpoena.html",
+      "id": 100000008484315,
+      "asset_id": 100000008484315,
+      "source": "New York Times",
+      "published_date": "2022-08-11",
+      "updated": "2022-08-12 11:18:34",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Classified Information and State Secrets;Subpoenas;Archives and Records;United States Politics and Government;Trump, Donald J;Garland, Merrick B;Justice Department;Federal Bureau of Investigation;Mar-a-Lago (Palm Beach, Fla);National Archives and Records Administration",
+      "column": null,
+      "byline": "By Glenn Thrush, Maggie Haberman and Ben Protess",
+      "type": "Article",
+      "title": "Trump Search Said to Be Part of Effort to Find Highly Classified Material",
+      "abstract": "The former president said he would not object to the Justice Department’s move to release the search warrant used to carry out the search of his Florida home.",
+      "des_facet": [
+        "Classified Information and State Secrets",
+        "Subpoenas",
+        "Archives and Records",
+        "United States Politics and Government"
+      ],
+      "org_facet": [
+        "Justice Department",
+        "Federal Bureau of Investigation",
+        "Mar-a-Lago (Palm Beach, Fla)",
+        "National Archives and Records Administration"
+      ],
+      "per_facet": [
+        "Trump, Donald J",
+        "Garland, Merrick B"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Government officials have expressed concern that allowing highly classified materials to remain at former President Donald J. Trump’s home could leave them vulnerable to efforts by foreign adversaries to acquire them.",
+          "copyright": "Emil Lippe for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/08/11/us/politics/11dc-investigate/11dc-investigate-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/11/us/politics/11dc-investigate/11dc-investigate-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/11/us/politics/11dc-investigate/11dc-investigate-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/5b23c02f-a741-5994-95e4-aa9002db3a67",
+      "url": "https://www.nytimes.com/2022/08/11/health/virus-cdc-guidelines.html",
+      "id": 100000008484993,
+      "asset_id": 100000008484993,
+      "source": "New York Times",
+      "published_date": "2022-08-11",
+      "updated": "2022-08-12 10:27:03",
+      "section": "Health",
+      "subsection": "",
+      "nytdsection": "health",
+      "adx_keywords": "Coronavirus (2019-nCoV);Masks;Quarantines;Education (K-12);your-feed-health;your-feed-science;Centers for Disease Control and Prevention;United States",
+      "column": null,
+      "byline": "By Emily Anthes",
+      "type": "Article",
+      "title": "C.D.C. Eases Covid Guidelines, Noting Virus Is ‘Here to Stay’",
+      "abstract": "The new guidelines eliminate quarantines and put less emphasis on social distancing, routine surveillance testing and contact tracing.",
+      "des_facet": [
+        "Coronavirus (2019-nCoV)",
+        "Masks",
+        "Quarantines",
+        "Education (K-12)",
+        "your-feed-health",
+        "your-feed-science"
+      ],
+      "org_facet": [
+        "Centers for Disease Control and Prevention"
+      ],
+      "per_facet": [],
+      "geo_facet": [
+        "United States"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "People who are exposed to the virus no longer need to quarantine at home, regardless of their vaccination status, according to the new guidelines, but they should wear a mask for 10 days and get tested for the virus on Day 5.",
+          "copyright": "Jim Wilson/The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/08/11/science/11virus-cdc-guidance/11virus-cdc-guidance-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/11/science/11virus-cdc-guidance/11virus-cdc-guidance-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/11/science/11virus-cdc-guidance/11virus-cdc-guidance-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/2a20fab7-47ab-5a37-b83c-6962f1c981fb",
+      "url": "https://www.nytimes.com/2022/08/12/us/anne-heche-brain-injury.html",
+      "id": 100000008486013,
+      "asset_id": 100000008486013,
+      "source": "New York Times",
+      "published_date": "2022-08-12",
+      "updated": "2022-08-15 03:53:26",
+      "section": "U.S.",
+      "subsection": "",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Traffic Accidents and Safety;Movies;Life-Sustaining Support Systems, Withdrawal Of;Heche, Anne;Los Angeles (Calif)",
+      "column": null,
+      "byline": "By Daniel Victor and Remy Tumin",
+      "type": "Article",
+      "title": "Anne Heche Is Brain-Dead After Crash, Representative Says",
+      "abstract": "The actress, 53, was being kept on life support while it was being determined if her organs could be donated, the representative said.",
+      "des_facet": [
+        "Traffic Accidents and Safety",
+        "Movies",
+        "Life-Sustaining Support Systems, Withdrawal Of"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Heche, Anne"
+      ],
+      "geo_facet": [
+        "Los Angeles (Calif)"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Anne Heche starred in several popular Hollywood films in the late 1990s, including “Donnie Brasco,” “Wag the Dog” and “Six Days Seven Nights.”",
+          "copyright": "Angela Weiss/Agence France-Presse — Getty Images",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/08/12/world/12xp-hache/merlin_211110339_29ef3dc2-1658-4d63-a4be-0d178682c1c3-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/12/world/12xp-hache/merlin_211110339_29ef3dc2-1658-4d63-a4be-0d178682c1c3-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/12/world/12xp-hache/merlin_211110339_29ef3dc2-1658-4d63-a4be-0d178682c1c3-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/42021ccf-b2f9-51f9-a8c3-7d10e4dd3c37",
+      "url": "https://www.nytimes.com/article/omicron-ba5-symptoms-covid.html",
+      "id": 100000008480037,
+      "asset_id": 100000008480037,
+      "source": "New York Times",
+      "published_date": "2022-08-09",
+      "updated": "2022-08-15 08:38:19",
+      "section": "Well",
+      "subsection": "Live",
+      "nytdsection": "well",
+      "adx_keywords": "Coronavirus (2019-nCoV);Coronavirus Omicron Variant;Content Type: Service",
+      "column": null,
+      "byline": "By Dani Blum",
+      "type": "Article",
+      "title": "How do you manage Omicron BA.5 symptoms, including a sore throat?",
+      "abstract": "The longtime symptom of Covid is becoming more common, and sometimes more severe, with the dominant BA.5 subvariant.",
+      "des_facet": [
+        "Coronavirus (2019-nCoV)",
+        "Coronavirus Omicron Variant",
+        "Content Type: Service"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Getty Images",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/08/24/well/24covid-ongoing-ba5-symptoms2/24covid-ongoing-ba5-symptoms2-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/24/well/24covid-ongoing-ba5-symptoms2/24covid-ongoing-ba5-symptoms2-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/24/well/24covid-ongoing-ba5-symptoms2/24covid-ongoing-ba5-symptoms2-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/1047ea23-34b1-5ecf-8c21-d7e78ad537f2",
+      "url": "https://www.nytimes.com/2022/08/10/nyregion/trump-letitia-james-deposition.html",
+      "id": 100000008483531,
+      "asset_id": 100000008483531,
+      "source": "New York Times",
+      "published_date": "2022-08-10",
+      "updated": "2022-08-10 17:26:07",
+      "section": "New York",
+      "subsection": "",
+      "nytdsection": "new york",
+      "adx_keywords": "James, Letitia;Trump, Donald J;Fischetti, Ronald P",
+      "column": null,
+      "byline": "By Jonah E. Bromwich",
+      "type": "Article",
+      "title": "Trump and James sat across from each other for hours as he said ‘same answer’ again and again.",
+      "abstract": "A lawyer for Donald J. Trump said that over the course of about four hours, the former president answered only one question, about his name, toward the beginning of the interview.",
+      "des_facet": [],
+      "org_facet": [],
+      "per_facet": [
+        "James, Letitia",
+        "Trump, Donald J",
+        "Fischetti, Ronald P"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Former President Donald J. Trump answered only one question during an interview with the New York State attorney general, his lawyer said.",
+          "copyright": "Ash Adams for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/08/10/multimedia/10trump-blog-james-diptych-1/10trump-blog-james-diptych-1-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/10/multimedia/10trump-blog-james-diptych-1/10trump-blog-james-diptych-1-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/10/multimedia/10trump-blog-james-diptych-1/10trump-blog-james-diptych-1-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/b10e022d-43a7-50be-bbfc-6872f2f7a738",
+      "url": "https://www.nytimes.com/2022/08/10/us/anne-heche-coma-crash.html",
+      "id": 100000008482947,
+      "asset_id": 100000008482947,
+      "source": "New York Times",
+      "published_date": "2022-08-10",
+      "updated": "2022-08-15 04:38:42",
+      "section": "U.S.",
+      "subsection": "",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Television;Traffic Accidents and Safety;Heche, Anne;Police Department (Los Angeles, Calif);Los Angeles (Calif)",
+      "column": null,
+      "byline": "By Johnny Diaz and Vimal Patel",
+      "type": "Article",
+      "title": "Anne Heche Remains in Critical Condition After Car Crash",
+      "abstract": "Ms. Heche, 53, was injured on Friday when the car she was in crashed into a two-story home in Los Angeles, causing severe damage and a fire, the authorities said.",
+      "des_facet": [
+        "Television",
+        "Traffic Accidents and Safety"
+      ],
+      "org_facet": [
+        "Police Department (Los Angeles, Calif)"
+      ],
+      "per_facet": [
+        "Heche, Anne"
+      ],
+      "geo_facet": [
+        "Los Angeles (Calif)"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Anne Heche at the Directors Guild of America Awards in Beverly Hills, Calif., in March.",
+          "copyright": "Jordan Strauss/Invision, via AP",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/08/10/multimedia/10xp-heche-2/10xp-heche-2-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/10/multimedia/10xp-heche-2/10xp-heche-2-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/10/multimedia/10xp-heche-2/10xp-heche-2-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/c1f6c5dc-40c5-57e8-8f1c-94facfc50b97",
+      "url": "https://www.nytimes.com/2022/08/15/science/invasive-species-pigs-crocodiles.html",
+      "id": 100000008446349,
+      "asset_id": 100000008446349,
+      "source": "New York Times",
+      "published_date": "2022-08-15",
+      "updated": "2022-08-16 16:25:26",
+      "section": "Science",
+      "subsection": "",
+      "nytdsection": "science",
+      "adx_keywords": "your-feed-science;Endangered and Extinct Species;Invasive Species;Pigs;Crocodiles;Alligators;Florida Panthers (Animals);Research;Australia;Everglades (Fla);Florida;United States",
+      "column": null,
+      "byline": "By Anthony Ham",
+      "type": "Article",
+      "title": "Pigs to the Rescue: An Invasive Species Helped Save Australia’s Crocodiles",
+      "abstract": "Invasive species can damage the ecosystems they wind up in. But in parts of the world, endangered predators make hearty meals out of them.",
+      "des_facet": [
+        "your-feed-science",
+        "Endangered and Extinct Species",
+        "Invasive Species",
+        "Pigs",
+        "Crocodiles",
+        "Alligators",
+        "Florida Panthers (Animals)",
+        "Research"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "Australia",
+        "Everglades (Fla)",
+        "Florida",
+        "United States"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A feral hog was thrashed before being devoured by an estuarine crocodile in Australia.",
+          "copyright": "Adam Britton/Media Drum World, via Alamy",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/08/16/science/00sci-crocs-vs-pigs1/00sci-crocs-vs-pigs1-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/16/science/00sci-crocs-vs-pigs1/00sci-crocs-vs-pigs1-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/16/science/00sci-crocs-vs-pigs1/00sci-crocs-vs-pigs1-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/1edf452f-cefb-55d6-b55a-cbe04d557260",
+      "url": "https://www.nytimes.com/2022/08/12/style/bama-rush.html",
+      "id": 100000008483664,
+      "asset_id": 100000008483664,
+      "source": "New York Times",
+      "published_date": "2022-08-12",
+      "updated": "2022-08-12 18:09:53",
+      "section": "Style",
+      "subsection": "",
+      "nytdsection": "style",
+      "adx_keywords": "Colleges and Universities;Fraternities and Sororities;University of Alabama;TikTok (ByteDance);Alabama",
+      "column": null,
+      "byline": "By Madison Malone Kircher",
+      "type": "Article",
+      "title": "Paranoia and Pastels at Bama Rush",
+      "abstract": "Fears about TikTok and rumors of a secret documentary swirl around sorority rush week at the University of Alabama.",
+      "des_facet": [
+        "Colleges and Universities",
+        "Fraternities and Sororities"
+      ],
+      "org_facet": [
+        "University of Alabama",
+        "TikTok (ByteDance)"
+      ],
+      "per_facet": [],
+      "geo_facet": [
+        "Alabama"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "After the sorority rush at the University of Alabama went viral on TikTok last year, the week has taken on new tension. ",
+          "copyright": "Jill Frank for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/08/11/fashion/11BAMA-RUSH-AGAIN7/11BAMA-RUSH-AGAIN7-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/11/fashion/11BAMA-RUSH-AGAIN7/11BAMA-RUSH-AGAIN7-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/11/fashion/11BAMA-RUSH-AGAIN7/11BAMA-RUSH-AGAIN7-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/acc4ec54-8941-59ef-a550-6c66b8886823",
+      "url": "https://www.nytimes.com/2022/08/08/arts/olivia-newton-john-dead.html",
+      "id": 100000006707855,
+      "asset_id": 100000006707855,
+      "source": "New York Times",
+      "published_date": "2022-08-08",
+      "updated": "2022-08-09 19:12:59",
+      "section": "Arts",
+      "subsection": "",
+      "nytdsection": "arts",
+      "adx_keywords": "Pop and Rock Music;Deaths (Obituaries);Movies;Newton-John, Olivia",
+      "column": null,
+      "byline": "By Jim Farber",
+      "type": "Article",
+      "title": "Olivia Newton-John, Pop Singer and ‘Grease’ Star, Dies at 73",
+      "abstract": "She amassed No. 1 hits, chart-topping albums and four records that sold more than two million copies each. More than anything else, she was likable, even beloved.",
+      "des_facet": [
+        "Pop and Rock Music",
+        "Deaths (Obituaries)",
+        "Movies"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Newton-John, Olivia"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Olivia Newton-John starring as Sandy in the 1978 hit movie “Grease.” She was a four-time Grammy winner, beguiling listeners with a high, supple, vibrato-warmed voice.",
+          "copyright": "CBS, via Getty Images",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/08/09/obituaries/09newton1/08newton1-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/09/obituaries/09newton1/08newton1-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/09/obituaries/09newton1/08newton1-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/df08a6a4-0477-5d8e-861f-2da6c3363e5f",
+      "url": "https://www.nytimes.com/2022/08/15/us/graham-georgia-investigation-trump.html",
+      "id": 100000008488864,
+      "asset_id": 100000008488864,
+      "source": "New York Times",
+      "published_date": "2022-08-15",
+      "updated": "2022-08-16 08:54:58",
+      "section": "U.S.",
+      "subsection": "",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Presidential Election of 2020;Voter Fraud (Election Fraud);Politics and Government;Giuliani, Rudolph W;Trump, Donald J;Willis, Fani T;Graham, Lindsey;Raffensperger, Brad;Fulton County (Ga);Georgia",
+      "column": null,
+      "byline": "By Richard Fausset and Danny Hakim",
+      "type": "Article",
+      "title": "Giuliani Is Told He Is a Target in Trump Election Inquiry in Georgia",
+      "abstract": "Rudolph W. Giuliani, as former President Donald J. Trump’s personal lawyer, spearheaded efforts to keep Mr. Trump in power.",
+      "des_facet": [
+        "Presidential Election of 2020",
+        "Voter Fraud (Election Fraud)",
+        "Politics and Government"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Giuliani, Rudolph W",
+        "Trump, Donald J",
+        "Willis, Fani T",
+        "Graham, Lindsey",
+        "Raffensperger, Brad"
+      ],
+      "geo_facet": [
+        "Fulton County (Ga)",
+        "Georgia"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Rudolph W. Giuliani is set to appear in Atlanta on Wednesday after his lawyers unsuccessfully argued that he should be interviewed by video rather than in person.",
+          "copyright": "Justin Lane/EPA, via Shutterstock",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/08/15/us/15atlanta-graham3/15atlanta-graham3-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/15/us/15atlanta-graham3/15atlanta-graham3-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/15/us/15atlanta-graham3/15atlanta-graham3-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/61707efc-e80f-5296-a2c9-c2376c3a3c7e",
+      "url": "https://www.nytimes.com/2022/08/12/us/trump-espionage-act-laws-fbi.html",
+      "id": 100000008486129,
+      "asset_id": 100000008486129,
+      "source": "New York Times",
+      "published_date": "2022-08-12",
+      "updated": "2022-08-13 14:03:00",
+      "section": "U.S.",
+      "subsection": "",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Classified Information and State Secrets;Archives and Records;Search and Seizure;United States Politics and Government;Trump, Donald J;Garland, Merrick B;Justice Department;Federal Bureau of Investigation;Mar-a-Lago (Palm Beach, Fla);National Archives and Records Administration",
+      "column": null,
+      "byline": "By Maggie Haberman, Glenn Thrush and Charlie Savage",
+      "type": "Article",
+      "title": "Files Seized From Trump Are Part of Espionage Act Inquiry",
+      "abstract": "The materials included some marked as top secret and meant to be viewed only in secure government facilities, according to a copy of the warrant.",
+      "des_facet": [
+        "Classified Information and State Secrets",
+        "Archives and Records",
+        "Search and Seizure",
+        "United States Politics and Government"
+      ],
+      "org_facet": [
+        "Justice Department",
+        "Federal Bureau of Investigation",
+        "Mar-a-Lago (Palm Beach, Fla)",
+        "National Archives and Records Administration"
+      ],
+      "per_facet": [
+        "Trump, Donald J",
+        "Garland, Merrick B"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Former President Donald J. Trump’s legal team has until 3 p.m. Eastern on Friday to officially respond.",
+          "copyright": "Brittainy Newman for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/08/12/us/politics/12trump-blog-lede/12trump-blog-lede-thumbStandard-v2.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/12/us/politics/12trump-blog-lede/12trump-blog-lede-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/12/us/politics/12trump-blog-lede/12trump-blog-lede-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/84eb356a-9698-5826-bd4f-8eb7e44b2dc7",
+      "url": "https://www.nytimes.com/2022/08/14/arts/anne-heche-dead.html",
+      "id": 100000008487544,
+      "asset_id": 100000008487544,
+      "source": "New York Times",
+      "published_date": "2022-08-14",
+      "updated": "2022-08-16 16:42:14",
+      "section": "Arts",
+      "subsection": "",
+      "nytdsection": "arts",
+      "adx_keywords": "Deaths (Obituaries);Actors and Actresses;Television;Movies;Homosexuality and Bisexuality;Traffic Accidents and Safety;Heche, Anne;DeGeneres, Ellen",
+      "column": null,
+      "byline": "By Richard Sandomir",
+      "type": "Article",
+      "title": "Anne Heche, Actress Known for ’90s Film Roles, Dies at 53",
+      "abstract": "Ms. Heche, who won a Daytime Emmy early in her career and whose films included “Donnie Brasco” and “Wag the Dog,” had been critically injured in a car crash.",
+      "des_facet": [
+        "Deaths (Obituaries)",
+        "Actors and Actresses",
+        "Television",
+        "Movies",
+        "Homosexuality and Bisexuality",
+        "Traffic Accidents and Safety"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Heche, Anne",
+        "DeGeneres, Ellen"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The actress Anne Heche at the Directors Guild of America Awards in Beverly Hills, Calif., in March.",
+          "copyright": "Mario Anzuoni/Reuters",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/08/16/multimedia/00xp-heche-01/00xp-heche-01-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/16/multimedia/00xp-heche-01/00xp-heche-01-mediumThreeByTwo210-v2.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/16/multimedia/00xp-heche-01/00xp-heche-01-mediumThreeByTwo440-v2.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/9da755d0-9384-5382-9f43-59e7df3ad9d6",
+      "url": "https://www.nytimes.com/2022/08/11/us/trump-lawyer-georgia.html",
+      "id": 100000008484365,
+      "asset_id": 100000008484365,
+      "source": "New York Times",
+      "published_date": "2022-08-11",
+      "updated": "2022-08-12 20:14:05",
+      "section": "U.S.",
+      "subsection": "",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Voter Fraud (Election Fraud);Legal Profession;Presidential Election of 2020;Findling, Drew;Trump, Donald J;Willis, Fani T;Atlanta (Ga);Fulton County (Ga);Georgia",
+      "column": null,
+      "byline": "By Danny Hakim and Richard Fausset",
+      "type": "Article",
+      "title": "Trump Hires #BillionDollarLawyer",
+      "abstract": "As top allies of Donald J. Trump are called to testify in Atlanta, he has hired a high-profile local attorney best known for representing rappers.",
+      "des_facet": [
+        "Voter Fraud (Election Fraud)",
+        "Legal Profession",
+        "Presidential Election of 2020"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Findling, Drew",
+        "Trump, Donald J",
+        "Willis, Fani T"
+      ],
+      "geo_facet": [
+        "Atlanta (Ga)",
+        "Fulton County (Ga)",
+        "Georgia"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The lawyer Drew Findling has been retained to represent former President Donald J. Trump in the ongoing criminal investigation into election interference in Georgia. But he also has been a critic of Mr. Trump.",
+          "copyright": "Alyssa Pointer/Atlanta Journal-Constitution, via Associated Press",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/08/11/us/11trump-lawyer/11trump-lawyer-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/11/us/11trump-lawyer/11trump-lawyer-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/11/us/11trump-lawyer/11trump-lawyer-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/b460adc6-ca29-56ae-aac6-75149d2a44e6",
+      "url": "https://www.nytimes.com/2022/08/16/us/politics/trump-cipollone-philbin-interviews-fbi.html",
+      "id": 100000008491056,
+      "asset_id": 100000008491056,
+      "source": "New York Times",
+      "published_date": "2022-08-16",
+      "updated": "2022-08-16 23:22:24",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Classified Information and State Secrets;Archives and Records;United States Politics and Government;Cipollone, Pat A;Philbin, Patrick;Trump, Donald J;Mar-a-Lago (Palm Beach, Fla);National Archives and Records Administration",
+      "column": null,
+      "byline": "By Maggie Haberman",
+      "type": "Article",
+      "title": "F.B.I. Interviewed Top White House Lawyers About Missing Trump Documents",
+      "abstract": "Pat A. Cipollone and Patrick F. Philbin are the most senior former Trump aides known to have been interviewed in the investigation into his handling of classified material.",
+      "des_facet": [
+        "Classified Information and State Secrets",
+        "Archives and Records",
+        "United States Politics and Government"
+      ],
+      "org_facet": [
+        "Mar-a-Lago (Palm Beach, Fla)",
+        "National Archives and Records Administration"
+      ],
+      "per_facet": [
+        "Cipollone, Pat A",
+        "Philbin, Patrick",
+        "Trump, Donald J"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Patrick F. Philbin, the former deputy White House counsel, is among eight people who work or used to work for President Donald J. Trump who have been contacted by the F.B.I. since a grand jury was formed this year.",
+          "copyright": "Erin Schaff/The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/08/16/us/politics/16dc-investigate/16dc-investigate-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/16/us/politics/16dc-investigate/merlin_168047577_b26c0818-77db-401e-ab3c-a253fc124355-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/16/us/politics/16dc-investigate/merlin_168047577_b26c0818-77db-401e-ab3c-a253fc124355-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/d1dba37b-a628-51a7-b3fc-826f7f7d679c",
+      "url": "https://www.nytimes.com/2022/08/11/travel/retirees-part-time-travel.html",
+      "id": 100000008459036,
+      "asset_id": 100000008459036,
+      "source": "New York Times",
+      "published_date": "2022-08-11",
+      "updated": "2022-08-15 09:28:22",
+      "section": "Travel",
+      "subsection": "",
+      "nytdsection": "travel",
+      "adx_keywords": "Part-Time Employment;Employee Fringe Benefits;Age, Chronological;Budget Travel;Hotels and Travel Lodgings;Airports;Airlines and Airplanes;Shortages;Labor and Jobs;United Airlines;Hilton Worldwide Holdings Inc",
+      "column": null,
+      "byline": "By Debra Kamin",
+      "type": "Article",
+      "title": "Silver-Haired and Shameless About Perks: Retirees Take Part-Time Work in the Travel Industry",
+      "abstract": "Spend 15 hours a week loading baggage at the airport or passing out towels at the pool, and you can see Europe for a fraction of the usual cost.",
+      "des_facet": [
+        "Part-Time Employment",
+        "Employee Fringe Benefits",
+        "Age, Chronological",
+        "Budget Travel",
+        "Hotels and Travel Lodgings",
+        "Airports",
+        "Airlines and Airplanes",
+        "Shortages",
+        "Labor and Jobs"
+      ],
+      "org_facet": [
+        "United Airlines",
+        "Hilton Worldwide Holdings Inc"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Joey Boyd-Scott, left, and her wife, Maria, both have part-time travel jobs. The ongoing labor shortage is pushing the sector to consider senior citizens for positions that are far from senior.",
+          "copyright": "Beth Coller for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/08/09/travel/00workers-who-travel1/merlin_211231146_4103852d-8d43-4ff2-94d0-8ea7b87e4f3a-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/09/travel/00workers-who-travel1/00workers-who-travel1-mediumThreeByTwo210-v2.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/09/travel/00workers-who-travel1/00workers-who-travel1-mediumThreeByTwo440-v2.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/506e3def-0bc6-5e8b-b213-c44c3433ea19",
+      "url": "https://www.nytimes.com/2022/08/13/nyregion/rushdie-video-stabbed-ny.html",
+      "id": 100000008487633,
+      "asset_id": 100000008487633,
+      "source": "New York Times",
+      "published_date": "2022-08-13",
+      "updated": "2022-08-14 13:14:27",
+      "section": "New York",
+      "subsection": "",
+      "nytdsection": "new york",
+      "adx_keywords": "Murders, Attempted Murders and Homicides;Writing and Writers;Muslims and Islam;Books and Literature;Rushdie, Salman;Matar, Hadi;Chautauqua Institution;Chautauqua (NY)",
+      "column": null,
+      "byline": "By Hurubie Meko and Lauren D’Avolio",
+      "type": "Article",
+      "title": "Rushdie Stabbed Roughly 10 Times in Premeditated Attack, Prosecutors Say",
+      "abstract": "The writer, who was gravely wounded and had been put on a ventilator after surgery, is now talking in the hospital, according to his agent.",
+      "des_facet": [
+        "Murders, Attempted Murders and Homicides",
+        "Writing and Writers",
+        "Muslims and Islam",
+        "Books and Literature"
+      ],
+      "org_facet": [
+        "Chautauqua Institution"
+      ],
+      "per_facet": [
+        "Rushdie, Salman",
+        "Matar, Hadi"
+      ],
+      "geo_facet": [
+        "Chautauqua (NY)"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Hadi Matar, 24, center, made an appearance at the Chautauqua County Courthouse in Mayville, N.Y., for his arraignment on charges of second-degree attempted murder and assault with a weapon.",
+          "copyright": "Gene J. Puskar/Associated Press",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/08/13/us/politics/13ny-rushdie-1/13ny-rushdie-1-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/13/us/politics/13ny-rushdie-1/merlin_211419903_9b7f151e-9b1b-4cfa-8517-c8ae4ee9b12a-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/13/us/politics/13ny-rushdie-1/merlin_211419903_9b7f151e-9b1b-4cfa-8517-c8ae4ee9b12a-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/016d536a-a90d-50c5-b282-a7e8d0d6c6b7",
+      "url": "https://www.nytimes.com/2022/08/13/business/media/fox-dominion-lawsuit-first-amendment.html",
+      "id": 100000008479218,
+      "asset_id": 100000008479218,
+      "source": "New York Times",
+      "published_date": "2022-08-13",
+      "updated": "2022-08-14 16:25:56",
+      "section": "Business",
+      "subsection": "Media",
+      "nytdsection": "business",
+      "adx_keywords": "News and News Media;Voting Machines;Libel and Slander;Suits and Litigation (Civil);Compensation for Damages (Law);First Amendment (US Constitution);Voter Fraud (Election Fraud);Conspiracy Theories;Presidential Election of 2020;Murdoch, Lachlan;Murdoch, Rupert;Trump, Donald J;Fox News Channel;Fox Business Network;Dominion Voting Systems Corp",
+      "column": null,
+      "byline": "By Jeremy W. Peters",
+      "type": "Article",
+      "title": "Defamation Suit About Election Falsehoods Puts Fox on Its Heels",
+      "abstract": "The suit, filed by Dominion Voting Systems, could be one of the most consequential First Amendment cases in a generation.",
+      "des_facet": [
+        "News and News Media",
+        "Voting Machines",
+        "Libel and Slander",
+        "Suits and Litigation (Civil)",
+        "Compensation for Damages (Law)",
+        "First Amendment (US Constitution)",
+        "Voter Fraud (Election Fraud)",
+        "Conspiracy Theories",
+        "Presidential Election of 2020"
+      ],
+      "org_facet": [
+        "Fox News Channel",
+        "Fox Business Network",
+        "Dominion Voting Systems Corp"
+      ],
+      "per_facet": [
+        "Murdoch, Lachlan",
+        "Murdoch, Rupert",
+        "Trump, Donald J"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Fox News studio in Manhattan on election night in 2020. A defamation suit by Dominion Voting Systems threatens a huge financial and reputational blow to Fox.",
+          "copyright": "Fox",
+          "approved_for_syndication": 0,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/08/13/business/13fox-dominion-11/13fox-dominion-11-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/13/business/13fox-dominion-11/merlin_179251665_8c39005d-f6b6-4f73-9ddb-e2230651c4b9-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/13/business/13fox-dominion-11/merlin_179251665_8c39005d-f6b6-4f73-9ddb-e2230651c4b9-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/6ff02b50-f836-5e4c-9544-ed0af7c4fcb2",
+      "url": "https://www.nytimes.com/2022/07/27/technology/personaltech/default-settings-turn-off.html",
+      "id": 100000008460883,
+      "asset_id": 100000008460883,
+      "source": "New York Times",
+      "published_date": "2022-07-27",
+      "updated": "2022-07-30 11:41:15",
+      "section": "Technology",
+      "subsection": "Personal Tech",
+      "nytdsection": "technology",
+      "adx_keywords": "Data-Mining and Database Marketing;Computers and the Internet;Mobile Applications;Privacy;Smartphones;Speakers (Audio);iPhone;Android (Operating System);Content Type: Service;Amazon.com Inc;Apple Inc;Facebook Inc;Google Inc;Meta Platforms Inc;Microsoft Corp",
+      "column": null,
+      "byline": "By Brian X. Chen",
+      "type": "Article",
+      "title": "The Default Tech Settings You Should Turn Off Right Away",
+      "abstract": "These controls, which are buried inside products from Apple, Google, Meta and others, make us share more data than we need to.",
+      "des_facet": [
+        "Data-Mining and Database Marketing",
+        "Computers and the Internet",
+        "Mobile Applications",
+        "Privacy",
+        "Smartphones",
+        "Speakers (Audio)",
+        "iPhone",
+        "Android (Operating System)",
+        "Content Type: Service"
+      ],
+      "org_facet": [
+        "Amazon.com Inc",
+        "Apple Inc",
+        "Facebook Inc",
+        "Google Inc",
+        "Meta Platforms Inc",
+        "Microsoft Corp"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Glenn Harvey",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/07/28/business/21Techfix-illo/21Techfix-illo-thumbStandard.gif",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/07/28/business/21Techfix-illo/21Techfix-illo-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/07/28/business/21Techfix-illo/21Techfix-illo-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/57df2f1b-8264-569b-b1f9-dbd526cfbf3c",
+      "url": "https://www.nytimes.com/2022/08/12/well/move/balance-exercises.html",
+      "id": 100000008445930,
+      "asset_id": 100000008445930,
+      "source": "New York Times",
+      "published_date": "2022-08-12",
+      "updated": "2022-08-13 20:42:27",
+      "section": "Well",
+      "subsection": "Move",
+      "nytdsection": "well",
+      "adx_keywords": "Exercise;Longevity;Falls;Physical Therapy;Tai Chi;Age, Chronological",
+      "column": null,
+      "byline": "By Hilary Achauer",
+      "type": "Article",
+      "title": "Can You Pass the 10-Second Balance Test?",
+      "abstract": "This simple, often neglected skill can pay huge dividends later in life.",
+      "des_facet": [
+        "Exercise",
+        "Longevity",
+        "Falls",
+        "Physical Therapy",
+        "Tai Chi",
+        "Age, Chronological"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Sarah Karlan for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/08/12/multimedia/12WNT-BALANCE-EXERCISES-balance/12WNT-BALANCE-EXERCISES-balance-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/12/multimedia/12WNT-BALANCE-EXERCISES-balance/12WNT-BALANCE-EXERCISES-balance-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/08/12/multimedia/12WNT-BALANCE-EXERCISES-balance/12WNT-BALANCE-EXERCISES-balance-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    }
+  ]
+}
