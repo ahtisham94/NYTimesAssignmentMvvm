@@ -25,13 +25,12 @@ The main advatage of using MVVM, there is no two way dependency between ViewMode
 
 # Programming Practices Followed
 a) Android Architectural Components <br/>
-b) Dagger 2 for Dependency Injection <br/>
+b) Hilt for Dependency Injection <br/>
 c) MVVM <br/>
 d) Retrofit with Okhttp <br/>
 e) Room for data caching <br/>
 f) JUnit and Mockito for Unit testing <br/>
 d) Repository pattern <br/>
-e) JSoup for HTML Parsing
 
 # How to build ?
 
