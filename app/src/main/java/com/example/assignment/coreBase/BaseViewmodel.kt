@@ -4,6 +4,9 @@ import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.consumeAsFlow
 
+/**
+ * This baseview model can handle common functionality for viewmodels
+ */
 open class BaseViewmodel : ViewModel() {
 
     /**

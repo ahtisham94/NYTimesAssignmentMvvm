@@ -19,6 +19,8 @@ import java.util.concurrent.TimeUnit
 @RunWith(JUnit4::class)
 class ApiServiceUnitTest {
     var apiService: ApiService? = null
+    val mockArticleSuccessResponse = "article_success_res.json"
+    val mockArticleFailureResponse = "article_failure_res.json"
 
     @Before
     fun createService() {
@@ -59,7 +61,7 @@ class ApiServiceUnitTest {
     fun checkApiResponseBody() {
         try {
             val response = apiService?.getArticlesRequest(7)?.execute()
-            val reader = MockResponseFileReader("article_success_res.json")
+            val reader = MockResponseFileReader(mockArticleSuccessResponse)
             val testingSuccessResponse =
                 Gson().fromJson(reader.content, MainArticleResponse::class.java)
             assertEquals(testingSuccessResponse.status, response?.body()?.status)
@@ -80,13 +82,13 @@ class ApiServiceUnitTest {
 
     @Test
     fun readArticleSuccessResponse() {
-        val reader = MockResponseFileReader("article_success_res.json")
+        val reader = MockResponseFileReader(mockArticleSuccessResponse)
         assertNotNull(reader.content)
     }
 
     @Test
     fun readArticleFailureResponse() {
-        val reader = MockResponseFileReader("article_failure_res.json")
+        val reader = MockResponseFileReader(mockArticleFailureResponse)
         assertNotNull(reader.content)
     }
 }

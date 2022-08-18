@@ -16,4 +16,7 @@ interface MyDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun saveArticles(articleEntities: List<Article?>?)
 
+    @Query("SELECT * FROM ARTICLES WHERE id= :id")
+    fun getSingleArticle(id: Long): Article
+
 }

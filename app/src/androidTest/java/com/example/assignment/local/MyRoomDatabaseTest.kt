@@ -36,12 +36,24 @@ class MyRoomDatabaseTest : TestCase() {
      */
     @Test
     fun wirteArticleAndGetArticleList() = runBlocking {
-        val list = listOf<Article>()
-        list.plus(Article(id = 100032, title = "TestingTitle", section = "Popular Section"))
-        list.plus(Article(id = 100033, title = "TestingTitle2", section = "Popular Section"))
-        list.plus(Article(id = 100034, title = "TestingTitle3", section = "Popular Section"))
-        doa.saveArticles(list)
+        doa.saveArticles(
+            listOf(
+                Article(
+                    id = 100032,
+                    title = "TestingTitle",
+                    section = "Popular Section"
+                ),
+                Article(
+                    id = 100031,
+                    title = "TestingTitle",
+                    section = "Popular Section"
+                )
+            )
+        )
+        val item = db.getMyDao().getSingleArticle(100031)
         assertNotNull(db.getMyDao().getAllArticles())
+        assertEquals(item.title, "TestingTitle")
+        assertEquals(item.section, "Popular Section")
     }
 
     @After
