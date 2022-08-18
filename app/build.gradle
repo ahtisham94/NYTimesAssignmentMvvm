@@ -6,6 +6,7 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id 'dagger.hilt.android.plugin'
     id 'androidx.navigation.safeargs.kotlin'
+    id 'jacoco'
 
 }
 
@@ -31,8 +32,27 @@ android {
         resValue "string", "base_url", (secureProps.getProperty("BASE_URL") ?: "")
         resValue "string", "api_key", (secureProps.getProperty("API_KEY") ?: "")
     }
+
+    signingConfigs {
+        release {
+            keyAlias 'Assignment'
+            keyPassword 'Assignment'
+            storeFile file('../Assignment.jks')
+            storePassword 'Assignment'
+        }
+        debug {
+            keyAlias 'Assignment'
+            keyPassword 'Assignment'
+            storeFile file('../Assignment.jks')
+            storePassword 'Assignment'
+
+        }
+    }
+
+
     buildTypes {
         release {
+            signingConfig signingConfigs.release
             debuggable false
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
@@ -42,13 +62,11 @@ android {
 
         }
         debug {
-
-            debuggable true
-            minifyEnabled false
+            signingConfig signingConfigs.debug
+            testCoverageEnabled true
             applicationVariants.all { variant ->
-                renameAPK(variant, defaultConfig, 'D')
+                renameAPK(variant, defaultConfig, 'R')
             }
-
         }
 
     }
