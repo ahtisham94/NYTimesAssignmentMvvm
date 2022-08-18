@@ -43,7 +43,7 @@ class ApiServiceUnitTest {
      * The method check if API working fine
      */
     @Test
-    fun `API is working`() {
+    fun checkApiWorking() {
         try {
             val response = apiService?.getArticlesRequest(7)?.execute()
             assertEquals(response?.code(), 200)
@@ -56,7 +56,7 @@ class ApiServiceUnitTest {
      * The test method check if API response body is same as expected
      */
     @Test
-    fun `Response body is same as expected`() {
+    fun checkApiResponseBody() {
         try {
             val response = apiService?.getArticlesRequest(7)?.execute()
             val reader = MockResponseFileReader("article_success_res.json")
@@ -69,7 +69,7 @@ class ApiServiceUnitTest {
     }
 
     @Test
-    fun `fetch details for failed response 404 returned`() {
+    fun checkApiErrorCode() {
         try {
             val response = apiService?.getArticlesRequest(17)?.execute()
             assertEquals(response?.code(), 404)
@@ -79,13 +79,13 @@ class ApiServiceUnitTest {
     }
 
     @Test
-    fun `read article success json file`() {
+    fun readArticleSuccessResponse() {
         val reader = MockResponseFileReader("article_success_res.json")
         assertNotNull(reader.content)
     }
 
     @Test
-    fun `read article failure json file`() {
+    fun readArticleFailureResponse() {
         val reader = MockResponseFileReader("article_failure_res.json")
         assertNotNull(reader.content)
     }
