@@ -46,14 +46,22 @@ class DashboardViewmodelAndroidTest {
             val states = dashboardViewmodel.dashboardRepository.baseApiResultHandler {
                 Constants.getService().getArticlesRequest(7)
             }
-            states.collect() {
+
+
+
+            states.collect {
                 when (it) {
                     is APIState.ShowHideDialog -> {
                         if (it.showHide)
-                            assertEquals("showing", "showing")
+                            assertEquals(true, it.showHide)
+                        else
+                            assertEquals(false, it.showHide)
                     }
                     is APIState.NetworkResponseSuccess -> {
                         assertNotNull(it)
+                    }
+                    is APIState.Error -> {
+                        assertNotNull(it.errorMessage)
                     }
                 }
             }
