@@ -48,6 +48,13 @@ class MyArticlesListFragmentTest {
         }
     }
 
+    /**
+     * This test method perform scenario open app
+     * Check Recycler is visible
+     * Perform click on recycler item
+     * Show selected item data on detail screen
+     */
+
     @Test
     fun articleRecyclerviewTest() {
         onView(withId(R.id.articleRv)).check(matches(isDisplayed()))

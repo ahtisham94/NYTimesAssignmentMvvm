@@ -1,6 +1,6 @@
 package com.example.assignment.remote
 
 object Constants {
-    val BASEURL = "http://api.nytimes.com/"
-    val API_KEY = "6BwaK885XKzLJ68m1kPonqqnDwe9YRbI"
+    const val BASEURL = "http://api.nytimes.com/"
+    const val API_KEY = "6BwaK885XKzLJ68m1kPonqqnDwe9YRbI"
 }

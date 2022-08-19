@@ -36,7 +36,7 @@ b) Hilt for Dependency Injection <br/>
 c) MVVM <br/>
 d) Retrofit with Okhttp <br/>
 e) Room for data caching <br/>
-f) JUnit for Unit testing <br/>
+f) JUnit for Unit testing and Espresso for UI testing <br/>
 d) Repository pattern <br/>
 
 # How to build ?

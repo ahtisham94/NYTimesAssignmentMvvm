@@ -11,61 +11,61 @@ import org.junit.runners.JUnit4
 class EntityTest {
 
     @Test
-    fun testArticleId() {
+    fun testArticleIdTest() {
         val item = Article(id = 11233)
         assertEquals(item.id, 11233)
     }
 
     @Test
-    fun testUriId() {
+    fun testUriIdTest() {
         val item = Article(uri = "TestingUri")
         assertEquals(item.uri, "TestingUri")
     }
 
     @Test
-    fun testUrlId() {
+    fun testUrlIdTest() {
         val item = Article(url = "TestingUrl")
         assertEquals(item.url, "TestingUrl")
     }
 
     @Test
-    fun testArticlePublishedDate() {
+    fun testArticlePublishedDateTest() {
         val item = Article(publishedDate = "12,Mar 2022")
         assertEquals(item.publishedDate, "12,Mar 2022")
     }
 
     @Test
-    fun testUpdated() {
+    fun testUpdatedTest() {
         val item = Article(updated = "TestingUpdated")
         assertEquals(item.updated, "TestingUpdated")
     }
 
     @Test
-    fun testSection() {
+    fun testSectionTest() {
         val item = Article(section = "TestingSection")
         assertEquals(item.section, "TestingSection")
     }
 
     @Test
-    fun testType() {
+    fun testTypeTest() {
         val item = Article(type = "TestingType")
         assertEquals(item.type, "TestingType")
     }
 
     @Test
-    fun testArticleTitle() {
+    fun testArticleTitleTest() {
         val item = Article(title = "Olivia")
         assertEquals(item.title, "Olivia")
     }
 
     @Test
-    fun testArticleAbstract() {
+    fun testArticleAbstractTest() {
         val item = Article(abstractArticle = "By Anthem Ham")
         assertEquals(item.abstractArticle, "By Anthem Ham")
     }
 
     @Test
-    fun testByLine() {
+    fun testByLineTest() {
         val item = Article(byline = "TestingByline")
         assertEquals(item.byline, "TestingByline")
     }
