@@ -39,6 +39,10 @@ class ArticlesAdapter(val block: (res: Any) -> Unit) :
 
     }
 
+   public override fun getItem(position: Int): Article {
+        return super.getItem(position)
+    }
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyArticlesHolder {
         val inflater = LayoutInflater.from(parent.context)
         val binding = ItemArticlesLayoutBinding.inflate(inflater, parent, false)
