@@ -18,17 +18,23 @@ object DatabindingAdapters {
 
     @JvmStatic
     @BindingAdapter(value = ["updateAdapter"])
-    fun updateAdapter(recyclerView: RecyclerView, list: ArrayList<Article>) {
-        if (recyclerView.adapter != null) {
-            (recyclerView.adapter as ArticlesAdapter).setData(list.toMutableList())
+    fun updateAdapter(recyclerView: RecyclerView?, list: ArrayList<Article>?) {
+        if (recyclerView != null) {
+            if (recyclerView.adapter != null) {
+                if (list != null) {
+                    (recyclerView.adapter as ArticlesAdapter).setData(list.toMutableList())
+                }
+            }
         }
     }
 
     @JvmStatic
     @BindingAdapter(value = ["filter"])
-    fun filter(recyclerView: RecyclerView, filter: String) {
-        if (recyclerView.adapter != null) {
-            (recyclerView.adapter as ArticlesAdapter).filter(filter)
+    fun filter(recyclerView: RecyclerView?, filter: String?) {
+        if (recyclerView != null) {
+            if (recyclerView.adapter != null) {
+                filter?.let { (recyclerView.adapter as ArticlesAdapter).filter(it) }
+            }
         }
     }
 }

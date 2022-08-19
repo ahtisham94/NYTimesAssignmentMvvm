@@ -35,7 +35,7 @@ class MyRoomDatabaseTest : TestCase() {
      * This test method check both cases like save and get list
      */
     @Test
-    fun wirteArticleAndGetArticleList() = runBlocking {
+    fun writeArticleAndGetArticleList() = runBlocking {
         doa.saveArticles(
             listOf(
                 Article(

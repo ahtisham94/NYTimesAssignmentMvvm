@@ -11,7 +11,6 @@ import com.example.assignment.dashboard.artileModels.MainArticleResponse
 import com.example.assignment.dashboard.dashboardObservers.ArticleListObserver
 import com.example.assignment.dashboard.dashboardObservers.MyArticleDetailObserver
 import com.example.assignment.dashboard.dashboardRepository.DashboardRepository
-import com.example.assignment.di.APIKeyQualifier
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.launch
@@ -35,7 +34,6 @@ class DashboardViewmodel @Inject constructor(val dashboardRepository: DashboardR
      */
     fun getArticles() {
         viewModelScope.launch(exceptionHandler) {
-
             dashboardRepository.getArticles(7)
                 .collect {
                     when (it) {

@@ -17,9 +17,15 @@ class EntityTest {
     }
 
     @Test
-    fun testArticleTitle() {
-        val item = Article(title = "Olivia")
-        assertEquals(item.title, "Olivia")
+    fun testUriId() {
+        val item = Article(uri = "TestingUri")
+        assertEquals(item.uri, "TestingUri")
+    }
+
+    @Test
+    fun testUrlId() {
+        val item = Article(url = "TestingUrl")
+        assertEquals(item.url, "TestingUrl")
     }
 
     @Test
@@ -29,8 +35,38 @@ class EntityTest {
     }
 
     @Test
+    fun testUpdated() {
+        val item = Article(updated = "TestingUpdated")
+        assertEquals(item.updated, "TestingUpdated")
+    }
+
+    @Test
+    fun testSection() {
+        val item = Article(section = "TestingSection")
+        assertEquals(item.section, "TestingSection")
+    }
+
+    @Test
+    fun testType() {
+        val item = Article(type = "TestingType")
+        assertEquals(item.type, "TestingType")
+    }
+
+    @Test
+    fun testArticleTitle() {
+        val item = Article(title = "Olivia")
+        assertEquals(item.title, "Olivia")
+    }
+
+    @Test
     fun testArticleAbstract() {
         val item = Article(abstractArticle = "By Anthem Ham")
         assertEquals(item.abstractArticle, "By Anthem Ham")
+    }
+
+    @Test
+    fun testByLine() {
+        val item = Article(byline = "TestingByline")
+        assertEquals(item.byline, "TestingByline")
     }
 }

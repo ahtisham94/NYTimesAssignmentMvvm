@@ -42,7 +42,8 @@ abstract class BaseFragment<Binding : ViewDataBinding, V : ViewModel> : Fragment
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        mBaseActivity = requireActivity() as BaseActivity<ViewDataBinding, ViewModel>
+        if (requireActivity() is BaseActivity<*, *>)
+            mBaseActivity = requireActivity() as BaseActivity<ViewDataBinding, ViewModel>
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
