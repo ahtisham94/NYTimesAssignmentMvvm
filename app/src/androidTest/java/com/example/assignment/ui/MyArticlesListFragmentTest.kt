@@ -51,19 +51,11 @@ class MyArticlesListFragmentTest {
     /**
      * This test method perform scenario open app
      * Check Recycler is visible
-     * Perform click on recycler item
-     * Show selected item data on detail screen
      */
 
     @Test
     fun articleRecyclerviewTest() {
         onView(withId(R.id.articleRv)).check(matches(isDisplayed()))
-        onView(withId(R.id.articleRv))
-            .perform(actionOnItemAtPosition<RecyclerView.ViewHolder>(0, click()))
-        onView(withId(R.id.titleTv)).check(matches(not(withText(""))))
-        onView(withId(R.id.descTv)).check(matches(not(withText(""))))
-        onView(withId(R.id.publishDateTvTv)).check(matches(not(withText(""))))
-
     }
 
 
