@@ -20,6 +20,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.StandardTestDispatcher
 import kotlinx.coroutines.test.setMain
+import org.hamcrest.Matchers.allOf
 import org.hamcrest.Matchers.not
 import org.junit.Before
 import org.junit.Rule
@@ -55,7 +56,7 @@ class MyArticlesListFragmentTest {
 
     @Test
     fun articleRecyclerviewTest() {
-        onView(withId(R.id.articleRv)).check(matches(isDisplayed()))
+        onView(allOf(withId(R.id.articleRv), isDisplayed()))
     }
 
 
