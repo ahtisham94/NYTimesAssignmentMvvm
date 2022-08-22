@@ -43,18 +43,18 @@ d) Repository pattern <br/>
 
 Open terminal and type the below command to generate debug build <br/>
 
-```  gradlew assembleDebug ```
+```  ./gradlew assembleDebug ```
 
 Open terminal and type the below command to generate release build <br/>
 
-```  gradlew assembleRelease ```
+```  ./gradlew assembleRelease ```
 
 
 # How to generate code coverage report ?
 
 Open terminal and type the following command
 
-``` gradlew clean jacocoTestReport```
+``` ./gradlew clean jacocoTestReport```
 
 The coverage report will be generated on the following path.
 
