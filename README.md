@@ -4,9 +4,9 @@
 
 1. MVVM Architectural pattern
 2. Offline Support
-3. Unit test demonstration using JUnit and Mockito
-4. UI unit test demonstration using Espresso
-5. Gradle scripts for running sonarqube static code analysis, code coverage, etc.
+3. Unit test demonstration using JUnit
+4. UI test demonstration using Espresso
+5. Gradle scripts code coverage
 
 The application has been built with **offline support**. It has been designed using **Android
 Architecture components** with **Room** for offline data caching. The application is built in such a
